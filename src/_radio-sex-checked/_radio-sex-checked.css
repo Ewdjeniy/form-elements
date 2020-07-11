@@ -1,0 +1,11 @@
+._radio-sex-checked {
+    border-color: #BC9CFF !important;
+}
+
+._radio-sex-checked .__radio-sex-man-checker {
+    display: block;
+}
+
+._radio-sex-checked .__radio-sex-woman-checker {
+    display: block;
+}

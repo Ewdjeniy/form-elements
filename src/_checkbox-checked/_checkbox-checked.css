@@ -1,0 +1,15 @@
+._checkbox-checked {
+    border-color: #BC9CFF !important;
+}
+
+._checkbox-checked .__checkbox-smoke-checker {
+    display: block;
+}
+
+._checkbox-checked .__checkbox-pets-checker {
+    display: block;
+}
+
+._checkbox-checked .__checkbox-guests-checker {
+    display: block;
+}

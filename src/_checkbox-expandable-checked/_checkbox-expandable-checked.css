@@ -1,0 +1,27 @@
+._checkbox-expandable-checked {
+    border-color: #BC9CFF !important;
+}
+
+._checkbox-expandable-checked .__checkbox-expandable-breakfast-checker {
+    display: block;
+}
+
+._checkbox-expandable-checked .__checkbox-expandable-table-checker {
+    display: block;
+}
+
+._checkbox-expandable-checked .__checkbox-expandable-chair-checker {
+    display: block;
+}
+
+._checkbox-expandable-checked .__checkbox-expandable-bed-checker {
+    display: block;
+}
+
+._checkbox-expandable-checked .__checkbox-expandable-tv-checker {
+    display: block;
+}
+
+._checkbox-expandable-checked .__checkbox-expandable-shampoo-checker {
+    display: block;
+}

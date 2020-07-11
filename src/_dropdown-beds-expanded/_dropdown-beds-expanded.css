@@ -1,0 +1,16 @@
+._dropdown-beds-expanded .__dropdown-beds-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+._dropdown-beds-expanded .__dropdown-beds-switcher {
+    border: 1px solid rgba(31, 32, 65, 0.5);
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+._dropdown-beds-expanded .__dropdown-beds-arrow {
+    color: rgba(31, 32, 65, 0.75);
+}

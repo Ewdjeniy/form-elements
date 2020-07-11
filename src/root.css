@@ -1,0 +1,57 @@
+@import "./__email-input/__email-input.css";
+@import "./__dropdown-guests/__dropdown-guests.css";
+@import "./__masked-input/__masked-input.css";
+@import "./__dropdown-date/__dropdown-date.css";
+@import "./__dropdown-filter-date/__dropdown-filter-date.css";
+@import "./__subscription-field/__subscription-field.css";
+@import "./__dropdown-beds/__dropdown-beds.css";
+@import "./__checkbox-expandable/__checkbox-expandable.css";
+@import "./__comfort/__comfort.css";
+@import "./__convenience/__convenience.css";
+@import "./__checkbox/__checkbox.css";
+@import "./__radio-sex/__radio-sex.css";
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    src: local("Montserrat Bold"),local(Montserrat-Bold),url(fonts/Montserrat-Bold.woff) format("woff"),url(fonts/Montserrat-Bold.ttf) format("ttf");
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    padding-bottom: 300px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.label__elem1 {
+    font-weight: bold;
+    color: #1F2041;
+}
+
+.label__elem2 {
+    font-weight: normal;
+    color: rgba(31, 32, 65, 0.5);
+}

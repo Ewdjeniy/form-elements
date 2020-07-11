@@ -1,0 +1,76 @@
+@import "../_dropdown-guests-refresh-active/_dropdown-guests-refresh-active.css";
+@import "../_dropdown-guests-expanded/_dropdown-guests-expanded.css";
+
+@font-face {
+    font-family: "Material Icons";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Material Icons"),local(MaterialIcons-Regular),url(fonts/MaterialIcons-Regular.woff) format("woff"),url(fonts/MaterialIcons-Regular.ttf) format("ttf");
+}
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    src: local("Montserrat Regular"),local(Montserrat-Regular),url(fonts/Montserrat-Regular.woff) format("woff"),url(fonts/Montserrat-Regular.ttf) format("ttf");
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.4rem;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 2.4rem;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.__dropdown-filter-date {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    height: 4.4rem;
+    width: 26.6rem;
+    color: rgba(31, 32, 65, 0.75);
+}
+
+.__dropdown-filter-date-switcher {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 0.4rem;
+    width: 100%;
+    height: 100%;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.__dropdown-filter-date-arrow-wrapper {
+    width: 4.4rem;
+    height: 4.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.__dropdown-filter-date-arrow {
+    color: rgba(31, 32, 65, 0.5);
+}

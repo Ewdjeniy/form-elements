@@ -1,0 +1,64 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    title Form-elements
+  body
+    section
+        article
+            div(class="label")
+                span(class="label__elem1") text field
+                span(class="label__elem2") default
+            include ./__email-input/__email-input.pug
+            br
+            div(class="label")
+                span(class="label__elem1") text field
+                span(class="label__elem2") default
+            input(class="__email-input" type="email" placeholder="This is pretty awesome")
+            br
+            div(class="label")
+                span(class="label__elem1") dropdown
+                span(class="label__elem2") default
+            include ./__dropdown-guests/__dropdown-guests.pug
+            br
+            div(class="label")
+                span(class="label__elem1") masked text field
+            include ./__masked-input/__masked-input.pug
+            br
+            include ./__dropdown-date/__dropdown-date.pug
+            br
+            br
+            br
+            div(class="label")
+                span(class="label__elem1") filter date dropdown
+            include ./__dropdown-filter-date/__dropdown-filter-date.pug
+            br
+            div(class="label")
+                span(class="label__elem1") subscription text field
+            include ./__subscription-field/__subscription-field.pug
+            br
+            div(class="label" style="width: 26.6rem;")
+                span(class="label__elem1") dropdown
+                span(class="label__elem2") default
+            div(class="__dropdown-beds")
+                div(class="__dropdown-beds-switcher")
+                    span 2 спальни, 2 кровати
+                    div(class="__dropdown-beds-arrow-wrapper")
+                        span(class="__dropdown-beds-arrow material-icons") keyboard_arrow_down
+            br
+            div(class="label" style="width: 26.6rem;")
+                span(class="label__elem1") dropdown
+                span(class="label__elem2") expanded
+            include ./__dropdown-beds/__dropdown-beds.pug
+            br
+            br
+            include ./__checkbox-expandable/__checkbox-expandable.pug
+            br
+            include ./__comfort/__comfort.pug
+            br
+            include ./__convenience/__convenience.pug
+        article
+            include ./__checkbox/__checkbox.pug
+            br
+            include ./__radio-sex/__radio-sex.pug
+        article

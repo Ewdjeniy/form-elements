@@ -1,0 +1,16 @@
+._dropdown-guests-expanded .__dropdown-guests-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+._dropdown-guests-expanded .__dropdown-guests-switcher {
+    border: 1px solid rgba(31, 32, 65, 0.5);
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+._dropdown-guests-expanded .__dropdown-guests-arrow {
+    color: rgba(31, 32, 65, 0.75);
+}
