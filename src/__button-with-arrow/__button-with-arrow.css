@@ -1,0 +1,71 @@
+@import "../_button-bg-color-purple/_button-bg-color-purple.css";
+@import "../_button-border-color-purple/_button-border-color-purple.css";
+@import "../_button-color-darkshade50/_button-color-darkshade50.css";
+@import "../_button-color-purple/_button-color-purple.css";
+@import "../_button-color-white/_button-color-white.css";
+@import "../_button-size-m/_button-size-m.css";
+@import "../_button-size-l/_button-size-l.css";
+@import "../_button-opacity05/_button-opacity05.css";
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    src: local("Montserrat Bold"), local(Montserrat-Bold), url(fonts/Montserrat-Bold.woff) format("woff"), url(fonts/Montserrat-Bold.ttf) format("ttf");
+}
+@font-face {
+    font-family: "Material Icons";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Material Icons"),local(MaterialIcons-Regular),url(fonts/MaterialIcons-Regular.woff) format("woff"),url(fonts/MaterialIcons-Regular.ttf) format("ttf");
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    /* Preferred icon size */
+    display: inline-block;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.__button-with-arrow {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.__button-with-arrow-label {
+    flex-grow: 1;
+}
+
+.__button-arrow {
+    margin-left: auto;
+    font-size: 2.4rem;
+}

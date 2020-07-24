@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    src: local("Montserrat Regular"), local(Montserrat-Regular), url(fonts/Montserrat-Regular.woff) format("woff"), url(fonts/Montserrat-Regular.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    src: local("Montserrat Bold"), local(Montserrat-Bold), url(fonts/Montserrat-Bold.woff) format("woff"), url(fonts/Montserrat-Bold.ttf) format("ttf");
+}
+
+.__rich-checkbox {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    color: rgba(31, 32, 65, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.__rich-checkbox-label {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1F2041;
+}
+
+.hidden {
+    display: none;
+}
+
+.__rich-checkbox-checkboxes {
+    width: 26.6rem;
+    border: 0;
+    border-spacing: 0;
+}
+
+.__checkbox-corridor-wrapper {
+    margin-right: 1rem;
+}
+.__checkbox-corridor {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 0.4rem;
+}
+
+.__checkbox-corridor-label {
+    font-weight: bold;
+}
+
+.__checkbox-corridor-description {
+    font-size: 1.2rem;
+    color: rgba(31, 32, 65, 0.5);
+}
+
+
+
+.__checkbox-helper-wrapper {
+    margin-right: 1rem;   
+}
+.__checkbox-helper {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 0.4rem;
+}
+
+.__checkbox-helper-label {
+    font-weight: bold;
+}
+
+.__checkbox-helper-description {
+    font-size: 1.2rem;
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.__rich-checkbox-tr1 {
+    cursor: pointer;
+}
+
+.__rich-checkbox-tr2 {
+    cursor: pointer;
+}

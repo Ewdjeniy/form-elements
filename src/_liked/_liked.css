@@ -1,0 +1,8 @@
+._liked {
+    border: 1px solid #BC9CFF !important;
+    color: #BC9CFF !important;
+}
+
+._liked .__like-btn:before {
+    content: 'favorite';
+  }

@@ -9,3 +9,11 @@
 ._radio-sex-checked .__radio-sex-woman-checker {
     display: block;
 }
+
+._radio-sex-checked .__radio-sex-man-label {
+   color: rgba(31, 32, 65, 0.75) !important; 
+}
+
+._radio-sex-checked .__radio-sex-woman-label {
+    color: rgba(31, 32, 65, 0.75) !important;
+}

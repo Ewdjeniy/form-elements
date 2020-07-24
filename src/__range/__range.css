@@ -1,0 +1,77 @@
+@import "../_liked/_liked.css";
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    src: local("Montserrat Regular"), local(Montserrat-Regular), url(fonts/Montserrat-Regular.woff) format("woff"), url(fonts/Montserrat-Regular.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    src: local("Montserrat Bold"), local(Montserrat-Bold), url(fonts/Montserrat-Bold.woff) format("woff"), url(fonts/Montserrat-Bold.ttf) format("ttf");
+}
+
+.__range {
+    box-sizing: border-box;
+}
+
+.__range-label {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+
+.__range-label-span {
+    font-weight: bold;
+    color: #1F2041;
+}
+
+.__range-indicator {
+    font-weight: normal;
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.__range-scale {
+    width: 26.6rem;
+    height: 0.6rem;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 0.3rem;
+    position: relative;
+}
+
+.__range-slider {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -80%;
+    left: 28%;
+}
+
+.__range-slider-elem1 {
+    width: 1.2rem;
+    height: 1.2rem;
+    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.__range-slider-elem2 {
+    width: 7rem;
+    height: 0.6rem;
+    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+}
+
+.__range-slider-elem3 {
+    width: 1.2rem;
+    height: 1.2rem;
+    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+}

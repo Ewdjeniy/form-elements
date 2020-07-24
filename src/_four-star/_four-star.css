@@ -1,0 +1,15 @@
+._four-star .__rate-star1:before {
+    content: 'grade';
+}
+
+._four-star .__rate-star2:before {
+    content: 'grade';
+}
+
+._four-star .__rate-star3:before {
+    content: 'grade';
+}
+
+._four-star .__rate-star4:before {
+    content: 'grade';
+}

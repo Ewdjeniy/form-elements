@@ -1,0 +1,27 @@
+@import "../_button-bg-color-purple/_button-bg-color-purple.css";
+@import "../_button-border-color-purple/_button-border-color-purple.css";
+@import "../_button-color-darkshade50/_button-color-darkshade50.css";
+@import "../_button-color-purple/_button-color-purple.css";
+@import "../_button-color-white/_button-color-white.css";
+@import "../_button-size-m/_button-size-m.css";
+@import "../_button-opacity05/_button-opacity05.css";
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    src: local("Montserrat Bold"), local(Montserrat-Bold), url(fonts/Montserrat-Bold.woff) format("woff"), url(fonts/Montserrat-Bold.ttf) format("ttf");
+}
+
+.__click-button {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    background-color: #FFFFFF;
+}

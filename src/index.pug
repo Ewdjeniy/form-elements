@@ -6,59 +6,154 @@ html
   body
     section
         article
-            div(class="label")
-                span(class="label__elem1") text field
-                span(class="label__elem2") default
-            include ./__email-input/__email-input.pug
+            include ./__email-field/__email-field.pug
             br
-            div(class="label")
-                span(class="label__elem1") text field
-                span(class="label__elem2") default
-            input(class="__email-input" type="email" placeholder="This is pretty awesome")
+            div(class="__email-field")
+                div(class="__email-field-label")
+                    span(class="__email-field-label-span1") text field
+                    span(class="__email-field-label-span2") hover/focus
+                input(class="__email-input" type="email" placeholder="This is pretty awesome")
             br
-            div(class="label")
-                span(class="label__elem1") dropdown
-                span(class="label__elem2") default
-            include ./__dropdown-guests/__dropdown-guests.pug
+            div(class="__dropdown-guests-field")
+                div(class="__dropdown-guests-field-label")
+                    span(class="__dropdown-guests-field-label-span1") dropdown
+                    span(class="__dropdown-guests-field-label-span2") default
+                div(class="__dropdown-guests")
+                    div(class="__dropdown-guests-switcher")
+                        span Сколько гостей
+                        div(class="__dropdown-guests-arrow-wrapper")
+                            span(class="__dropdown-guests-arrow material-icons") keyboard_arrow_down
             br
-            div(class="label")
-                span(class="label__elem1") masked text field
-            include ./__masked-input/__masked-input.pug
+            include ./__masked-text-field/__masked-text-field.pug
             br
-            include ./__dropdown-date/__dropdown-date.pug
+            include ./__dropdown-dates/__dropdown-dates.pug
             br
             br
             br
-            div(class="label")
-                span(class="label__elem1") filter date dropdown
-            include ./__dropdown-filter-date/__dropdown-filter-date.pug
+            include ./__dropdown-filter-date-field/__dropdown-filter-date-field.pug
             br
-            div(class="label")
-                span(class="label__elem1") subscription text field
-            include ./__subscription-field/__subscription-field.pug
+            include ./__subscription-text-field/__subscription-text-field.pug
             br
-            div(class="label" style="width: 26.6rem;")
-                span(class="label__elem1") dropdown
-                span(class="label__elem2") default
-            div(class="__dropdown-beds")
-                div(class="__dropdown-beds-switcher")
-                    span 2 спальни, 2 кровати
-                    div(class="__dropdown-beds-arrow-wrapper")
-                        span(class="__dropdown-beds-arrow material-icons") keyboard_arrow_down
+            div(class="__dropdown-beds-field")
+                div(class="__dropdown-beds-field-label")
+                    span(class="__dropdown-beds-field-label-span1") dropdown
+                    span(class="__dropdown-beds-field-label-span2") default
+                div(class="__dropdown-beds")
+                    div(class="__dropdown-beds-switcher")
+                        span 2 спальни, 2 кровати
+                        div(class="__dropdown-beds-arrow-wrapper")
+                            span(class="__dropdown-beds-arrow material-icons") keyboard_arrow_down
             br
-            div(class="label" style="width: 26.6rem;")
-                span(class="label__elem1") dropdown
-                span(class="label__elem2") expanded
-            include ./__dropdown-beds/__dropdown-beds.pug
+            include ./__dropdown-beds-field/__dropdown-beds-field.pug
             br
+            div(class="__checkbox-expandable")
+                div(class="__checkbox-expandable-switcher")
+                    span(class="__checkbox-expandable-label") Expandable checkbox list
+                    div(class="__checkbox-expandable-arrow-wrapper")
+                        span(class="__checkbox-expandable-arrow material-icons") keyboard_arrow_down
             br
             include ./__checkbox-expandable/__checkbox-expandable.pug
-            br
-            include ./__comfort/__comfort.pug
-            br
-            include ./__convenience/__convenience.pug
         article
             include ./__checkbox/__checkbox.pug
             br
             include ./__radio-sex/__radio-sex.pug
+            br
+            include ./__toggle/__toggle.pug
+            br
+            div(class="__toggle")
+                div(class="__toggle-wrapper")
+                    div(class="__toggle-btn")
+                    span(class="__toggle-btn-label") Получать спецпредложения
+            br
+            div(class="label")
+                span(class="label-span") like button
+            div(class="like-buttons-container")
+                include ./__like/__like.pug
+                div(class="__like _liked" style="margin-left: 10px;")
+                    span(class="__like-btn material-icons")
+                    span(class="__likes-amount") 12 
+            br
+            div(class="label")
+                span(class="label-span") rate button
+            br
+            div(style="display: flex; justify-content: space-between;")
+                include ./__rate/__rate.pug
+                br
+                div(class="__rate _five-star")
+                    span(class="__rate-star1 material-icons")
+                    span(class="__rate-star2 material-icons")
+                    span(class="__rate-star3 material-icons")
+                    span(class="__rate-star4 material-icons")
+                    span(class="__rate-star5 material-icons")
+            br
+            include ./__dropdown-guests-field/__dropdown-guests-field.pug
+            br
+            include ./__rich-checkbox/__rich-checkbox.pug
+        article
+            include ./__range/__range.pug
+            br
+            div(class="label")
+                span(class="label-span") buttons
+            br
+            div(style="display: flex; justify-content: space-between; width: 220px;")
+                include ./__click-button/__click-button.pug
+                button(class="__click-button _button-size-m _button-bg-color-purple _button-color-white _button-opacity05") click me
+            br
+            div(style="display: flex; justify-content: space-between; width: 220px;")
+                button(class="__click-button _button-size-m _button-color-purple _button-border-color-purple") click me
+                button(class="__click-button _button-size-m _button-color-purple _button-border-color-purple _button-opacity05") click me
+            br
+            div(style="display: flex; justify-content: space-between; width: 150px;")
+                button(class="__click-button _button-color-purple") click me
+                button(class="__click-button _button-color-darkshade50") click me
+            br
+            include ./__button-with-arrow/__button-with-arrow.pug
+            br
+            div(class="label")
+                span(class="label-span") pagination
+            br
+            include ./__pagination/__pagination.pug       
+            br
+            div(class="__dropdown-guests-field _dropdown-guests-expanded _dropdown-guests-refresh-active")
+                div(class="__dropdown-guests-field-label")
+                    span(class="__dropdown-guests-field-label-span1") dropdown
+                div(class="__dropdown-guests")
+                    div(class="__dropdown-guests-switcher")
+                        span 3 гостя
+                        div(class="__dropdown-guests-arrow-wrapper")
+                            span(class="__dropdown-guests-arrow material-icons") keyboard_arrow_down
+                    div(class="__dropdown-guests-inputs")
+                        div(class="__dropdown-guests-input")
+                            span(class="__dropdown-guests-input-label") Взрослые
+                            div(class="__dropdown-guests-minus-wrapper")
+                                span -
+                            span(class="__dropdown-guests-number") 2
+                            input(class="__dropdown-guests-hidden" type="number" value="0")
+                            div(class="__dropdown-guests-plus-wrapper")
+                                span +
+                        div(class="__dropdown-guests-input")
+                            span(class="__dropdown-guests-input-label") Дети
+                            div(class="__dropdown-guests-minus-wrapper")
+                                span -
+                            span(class="__dropdown-guests-number") 1
+                            input(class="__dropdown-guests-hidden" type="number" value="0")
+                            div(class="__dropdown-guests-plus-wrapper")
+                                span +
+                        div(class="__dropdown-guests-input")
+                            span(class="__dropdown-guests-input-label") Младенцы
+                            div(class="__dropdown-guests-minus-wrapper")
+                                span -
+                            span(class="__dropdown-guests-number") 0
+                            input(class="__dropdown-guests-hidden" type="number" value="0")
+                            div(class="__dropdown-guests-plus-wrapper")
+                                span +
+                        div(class="__dropdown-guests-buttons")
+                            div(class="__dropdown-guests-refresh ") Очистить
+                            div(class="__dropdown-guests-submit") Применить
+            br
+    setion
+        article
+            include ./__comfort/__comfort.pug
+            br
+            include ./__convenience/__convenience.pug
         article

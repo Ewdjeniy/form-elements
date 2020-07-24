@@ -1,0 +1,71 @@
+@import "../_one-star/_one-star.css";
+@import "../_two-star/_two-star.css";
+@import "../_three-star/_three-star.css";
+@import "../_four-star/_four-star.css";
+@import "../_five-star/_five-star.css";
+
+@font-face {
+    font-family: "Material Icons";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Material Icons"),local(MaterialIcons-Regular),url(fonts/MaterialIcons-Regular.woff) format("woff"),url(fonts/MaterialIcons-Regular.ttf) format("ttf");
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    /* Preferred icon size */
+    display: inline-block;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.__rate {
+    box-sizing: border-box;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    color: rgba(31, 32, 65, 0.25);
+    font-size: 2.4rem;
+    width: 12rem;
+    background-image: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #BC9CFF;
+}
+
+.__rate-star1:before {
+    content: 'star_outline';
+}
+
+.__rate-star2:before {
+    content: 'star_outline';
+}
+
+.__rate-star3:before {
+    content: 'star_outline';
+}
+
+.__rate-star4:before {
+    content: 'star_outline';
+}
+
+.__rate-star5:before {
+    content: 'star_outline';
+}

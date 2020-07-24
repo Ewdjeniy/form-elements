@@ -1,0 +1,7 @@
+._two-star .__rate-star1:before {
+    content: 'grade';
+}
+
+._two-star .__rate-star2:before {
+    content: 'grade';
+}

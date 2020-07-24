@@ -7,39 +7,26 @@
   <body>
     <section>
       <article>
-        <div class="label"><span class="label__elem1">text field</span><span class="label__elem2">default</span></div>
-<input class="__email-input" type="email" placeholder="Email"><br>
-        <div class="label"><span class="label__elem1">text field</span><span class="label__elem2">default</span></div>
-        <input class="__email-input" type="email" placeholder="This is pretty awesome"><br>
-        <div class="label"><span class="label__elem1">dropdown</span><span class="label__elem2">default</span></div>
-<div class="__dropdown-guests">
-  <div class="__dropdown-guests-switcher"><span>Сколько гостей</span>
-    <div class="__dropdown-guests-arrow-wrapper"><span class="__dropdown-guests-arrow material-icons">keyboard_arrow_down</span></div>
-  </div>
-  <div class="__dropdown-guests-inputs">
-    <div class="__dropdown-guests-input"><span class="__dropdown-guests-input-label">Взрослые</span>
-      <div class="__dropdown-guests-minus-wrapper"><span>-</span></div><span class="__dropdown-guests-number">0</span>
-      <input class="__dropdown-guests-hidden" type="number" value="0">
-      <div class="__dropdown-guests-plus-wrapper"><span>+</span></div>
-    </div>
-    <div class="__dropdown-guests-input"><span class="__dropdown-guests-input-label">Взрослые</span>
-      <div class="__dropdown-guests-minus-wrapper"><span>-</span></div><span class="__dropdown-guests-number">0</span>
-      <input class="__dropdown-guests-hidden" type="number" value="0">
-      <div class="__dropdown-guests-plus-wrapper"><span>+</span></div>
-    </div>
-    <div class="__dropdown-guests-input"><span class="__dropdown-guests-input-label">Взрослые</span>
-      <div class="__dropdown-guests-minus-wrapper"><span>-</span></div><span class="__dropdown-guests-number">0</span>
-      <input class="__dropdown-guests-hidden" type="number" value="0">
-      <div class="__dropdown-guests-plus-wrapper"><span>+</span></div>
-    </div>
-    <div class="__dropdown-guests-buttons">
-      <div class="__dropdown-guests-refresh ">Очистить</div>
-      <div class="__dropdown-guests-submit">Применить</div>
-    </div>
-  </div>
+<div class="__email-field">
+  <div class="__email-field-label"><span class="__email-field-label-span1">text field</span><span class="__email-field-label-span2">default</span></div>
+  <input class="__email-input" type="email" placeholder="Email">
 </div><br>
-        <div class="label"><span class="label__elem1">masked text field</span></div>
-<input class="__masked-input" type="text" placeholder="ДД.ММ.ГГГГ"><br>
+        <div class="__email-field">
+          <div class="__email-field-label"><span class="__email-field-label-span1">text field</span><span class="__email-field-label-span2">hover/focus</span></div>
+          <input class="__email-input" type="email" placeholder="This is pretty awesome">
+        </div><br>
+        <div class="__dropdown-guests-field">
+          <div class="__dropdown-guests-field-label"><span class="__dropdown-guests-field-label-span1">dropdown</span><span class="__dropdown-guests-field-label-span2">default</span></div>
+          <div class="__dropdown-guests">
+            <div class="__dropdown-guests-switcher"><span>Сколько гостей</span>
+              <div class="__dropdown-guests-arrow-wrapper"><span class="__dropdown-guests-arrow material-icons">keyboard_arrow_down</span></div>
+            </div>
+          </div>
+        </div><br>
+<div class="__masked-text-field">
+  <div class="__masked-text-field-label"><span class="__masked-text-field-label-span1">masked text field</span><span class="__masked-text-field-label-span2">default</span></div>
+  <input class="__masked-input" type="text" placeholder="ДД.ММ.ГГГГ">
+</div><br>
 <div class="__dropdown-dates">
   <div class="__dropdown-arrival"><span class="__dropdown-arrival-label">date dropdown</span>
     <div class="__dropdown-arrival-switcher"><span>ДД.ММ.ГГГГ</span>
@@ -52,51 +39,64 @@
     </div>
   </div>
 </div><br><br><br>
-        <div class="label"><span class="label__elem1">filter date dropdown</span></div>
-<div class="__dropdown-filter-date">
-  <div class="__dropdown-filter-date-switcher"><span>19 авг - 23 авг</span>
-    <div class="__dropdown-filter-date-arrow-wrapper"><span class="__dropdown-filter-date-arrow material-icons">keyboard_arrow_down</span></div>
+<div class="__dropdown-filter-date-field">
+  <div class="__dropdown-filter-date-field-label">filter date dropdown</div>
+  <div class="__dropdown-filter-date">
+    <div class="__dropdown-filter-date-switcher"><span>19 авг - 23 авг</span>
+      <div class="__dropdown-filter-date-arrow-wrapper"><span class="__dropdown-filter-date-arrow material-icons">keyboard_arrow_down</span></div>
+    </div>
   </div>
 </div><br>
-        <div class="label"><span class="label__elem1">subscription text field</span></div>
-<div class="__subscription-field">
-  <input class="__subscription-input" type="email" placeholder="Email">
-  <div class="__subscription-arrow-wrapper">
-    <button class="__subscription-arrow material-icons" type="submit">arrow_forward</button>
+<div class="__subscription-text-field">
+  <div class="__subscription-text-field-label">subscription text field</div>
+  <div class="__subscription-field">
+    <input class="__subscription-input" type="email" placeholder="Email">
+    <div class="__subscription-arrow-wrapper">
+      <button class="__subscription-arrow material-icons" type="submit">arrow_forward</button>
+    </div>
   </div>
 </div><br>
-        <div class="label" style="width: 26.6rem;"><span class="label__elem1">dropdown</span><span class="label__elem2">default</span></div>
-        <div class="__dropdown-beds">
-          <div class="__dropdown-beds-switcher"><span>2 спальни, 2 кровати</span>
-            <div class="__dropdown-beds-arrow-wrapper"><span class="__dropdown-beds-arrow material-icons">keyboard_arrow_down</span></div>
+        <div class="__dropdown-beds-field">
+          <div class="__dropdown-beds-field-label"><span class="__dropdown-beds-field-label-span1">dropdown</span><span class="__dropdown-beds-field-label-span2">default</span></div>
+          <div class="__dropdown-beds">
+            <div class="__dropdown-beds-switcher"><span>2 спальни, 2 кровати</span>
+              <div class="__dropdown-beds-arrow-wrapper"><span class="__dropdown-beds-arrow material-icons">keyboard_arrow_down</span></div>
+            </div>
           </div>
         </div><br>
-        <div class="label" style="width: 26.6rem;"><span class="label__elem1">dropdown</span><span class="label__elem2">expanded</span></div>
-<div class="__dropdown-beds _dropdown-beds-expanded">
-  <div class="__dropdown-beds-switcher"><span>2 спальни, 2 кровати</span>
-    <div class="__dropdown-beds-arrow-wrapper"><span class="__dropdown-beds-arrow material-icons">keyboard_arrow_down</span></div>
+<div class="__dropdown-beds-field">
+  <div class="__dropdown-beds-field-label"><span class="__dropdown-beds-field-label-span1">dropdown</span><span class="__dropdown-beds-field-label-span2">expanded</span></div>
+  <div class="__dropdown-beds _dropdown-beds-expanded">
+    <div class="__dropdown-beds-switcher"><span>2 спальни, 2 кровати</span>
+      <div class="__dropdown-beds-arrow-wrapper"><span class="__dropdown-beds-arrow material-icons">keyboard_arrow_down</span></div>
+    </div>
+    <div class="__dropdown-beds-inputs">
+      <div class="__dropdown-beds-input"><span class="__dropdown-beds-input-label">Спальни</span>
+        <div class="__dropdown-beds-minus-wrapper"><span>-</span></div><span class="__dropdown-beds-number">0</span>
+        <input class="__dropdown-beds-hidden" type="number" value="0">
+        <div class="__dropdown-beds-plus-wrapper"><span>+</span></div>
+      </div>
+      <div class="__dropdown-beds-input"><span class="__dropdown-beds-input-label">Кровати</span>
+        <div class="__dropdown-beds-minus-wrapper"><span>-</span></div><span class="__dropdown-beds-number">0</span>
+        <input class="__dropdown-beds-hidden" type="number" value="0">
+        <div class="__dropdown-beds-plus-wrapper"><span>+</span></div>
+      </div>
+      <div class="__dropdown-beds-input"><span class="__dropdown-beds-input-label">ванные комнаты</span>
+        <div class="__dropdown-beds-minus-wrapper"><span>-</span></div><span class="__dropdown-beds-number">0</span>
+        <input class="__dropdown-beds-hidden" type="number" value="0">
+        <div class="__dropdown-beds-plus-wrapper"><span>+</span></div>
+      </div>
+    </div>
   </div>
-  <div class="__dropdown-beds-inputs">
-    <div class="__dropdown-beds-input"><span class="__dropdown-beds-input-label">Спальни</span>
-      <div class="__dropdown-beds-minus-wrapper"><span>-</span></div><span class="__dropdown-beds-number">0</span>
-      <input class="__dropdown-beds-hidden" type="number" value="0">
-      <div class="__dropdown-beds-plus-wrapper"><span>+</span></div>
-    </div>
-    <div class="__dropdown-beds-input"><span class="__dropdown-beds-input-label">Кровати</span>
-      <div class="__dropdown-beds-minus-wrapper"><span>-</span></div><span class="__dropdown-beds-number">0</span>
-      <input class="__dropdown-beds-hidden" type="number" value="0">
-      <div class="__dropdown-beds-plus-wrapper"><span>+</span></div>
-    </div>
-    <div class="__dropdown-beds-input"><span class="__dropdown-beds-input-label">ванные комнаты</span>
-      <div class="__dropdown-beds-minus-wrapper"><span>-</span></div><span class="__dropdown-beds-number">0</span>
-      <input class="__dropdown-beds-hidden" type="number" value="0">
-      <div class="__dropdown-beds-plus-wrapper"><span>+</span></div>
-    </div>
-  </div>
-</div><br><br>
+</div><br>
+        <div class="__checkbox-expandable">
+          <div class="__checkbox-expandable-switcher"><span class="__checkbox-expandable-label">Expandable checkbox list</span>
+            <div class="__checkbox-expandable-arrow-wrapper"><span class="__checkbox-expandable-arrow material-icons">keyboard_arrow_down</span></div>
+          </div>
+        </div><br>
 <div class="__checkbox-expandable">
-  <div class="__checkbox-expandable-switcher"><span class="__checkbox-expandable-label">Expendable checkbox list</span>
-    <div class="__checkbox-expandable-arrow-wrapper"><span class="__checkbox-expandable-arrow material-icons">keyboard_arrow_down</span></div>
+  <div class="__checkbox-expandable-switcher"><span class="__checkbox-expandable-label">Expandable checkbox list</span>
+    <div class="__checkbox-expandable-arrow-wrapper"><span class="__checkbox-expandable-arrow material-icons">keyboard_arrow_up</span></div>
   </div>
   <div class="__checkbox-expandable-checkboxes">
     <div class="__checkbox-expandable-checkbox-breakfast-wrapper">
@@ -136,13 +136,6 @@
       </div><span class="__checkbox-expandable-shampoo-checkbox-label">Шампунь</span>
     </div>
   </div>
-</div><br>
-<div class="__comfort"><span class="__comfort-icon material-icons">tag_faces</span>
-  <div class="__comfort-description"><span class="__comfort-header">Комфорт</span><span>Шумопоглощающие стены</span></div>
-</div><br>
-<div class="__convenience">
-  <div class="__convenience-icon material-icons">location_city</div>
-  <div class="__convenience-description"><span class="__convenience-header">Удобство</span><span>Окно в каждой из спален</span></div>
 </div>
       </article>
       <article>
@@ -170,22 +163,176 @@
 </div><br>
 <div class="__radio-sex"><span class="__radio-sex-label">Radio buttons</span>
   <div class="__radio-sex-inputs">
-    <div class="__radio-sex-man-wrapper">
-      <div class="__radio-sex-man-input _radio-sex-checked">
+    <div class="__radio-sex-man-wrapper _radio-sex-checked">
+      <div class="__radio-sex-man-input">
         <div class="__radio-sex-man-checker"></div>
       </div><span class="__radio-sex-man-label">Мужчина</span>
     </div>
-    <div class="__radio-sex-inputs">
-      <div class="__radio-sex-woman-wrapper">
-        <div class="__radio-sex-woman-input">
-          <div class="__radio-sex-woman-checker"></div>
-        </div><span class="__radio-sex-woman-label">Женщина</span>
+    <div class="__radio-sex-woman-wrapper">
+      <div class="__radio-sex-woman-input">
+        <div class="__radio-sex-woman-checker"></div>
+      </div><span class="__radio-sex-woman-label">Женщина</span>
+    </div>
+  </div>
+</div><br>
+<div class="__toggle"><span class="__toggle-label">Toggle</span>
+  <div class="__toggle-wrapper">
+    <div class="__toggle-btn _switch-on"></div><span class="__toggle-btn-label">Получать спецпредложения</span>
+  </div>
+</div><br>
+        <div class="__toggle">
+          <div class="__toggle-wrapper">
+            <div class="__toggle-btn"></div><span class="__toggle-btn-label">Получать спецпредложения</span>
+          </div>
+        </div><br>
+        <div class="label"><span class="label-span">like button</span></div>
+        <div class="like-buttons-container">
+<div class="__like"><span class="__like-btn material-icons"></span><span class="__likes-amount">2</span></div>
+          <div class="__like _liked" style="margin-left: 10px;"><span class="__like-btn material-icons"></span><span class="__likes-amount">12 </span></div>
+        </div><br>
+        <div class="label"><span class="label-span">rate button</span></div><br>
+        <div style="display: flex; justify-content: space-between;">
+<div class="__rate _four-star"><span class="__rate-star1 material-icons"></span><span class="__rate-star2 material-icons"></span><span class="__rate-star3 material-icons"></span><span class="__rate-star4 material-icons"></span><span class="__rate-star5 material-icons"></span></div><br>
+          <div class="__rate _five-star"><span class="__rate-star1 material-icons"></span><span class="__rate-star2 material-icons"></span><span class="__rate-star3 material-icons"></span><span class="__rate-star4 material-icons"></span><span class="__rate-star5 material-icons"></span></div>
+        </div><br>
+<div class="__dropdown-guests-field _dropdown-guests-expanded">
+  <div class="__dropdown-guests-field-label"><span class="__dropdown-guests-field-label-span1">dropdown</span></div>
+  <div class="__dropdown-guests">
+    <div class="__dropdown-guests-switcher"><span>Сколько гостей</span>
+      <div class="__dropdown-guests-arrow-wrapper"><span class="__dropdown-guests-arrow material-icons">keyboard_arrow_down</span></div>
+    </div>
+    <div class="__dropdown-guests-inputs">
+      <div class="__dropdown-guests-input"><span class="__dropdown-guests-input-label">Взрослые</span>
+        <div class="__dropdown-guests-minus-wrapper"><span>-</span></div><span class="__dropdown-guests-number">0</span>
+        <input class="__dropdown-guests-hidden" type="number" value="0">
+        <div class="__dropdown-guests-plus-wrapper"><span>+</span></div>
+      </div>
+      <div class="__dropdown-guests-input"><span class="__dropdown-guests-input-label">Дети</span>
+        <div class="__dropdown-guests-minus-wrapper"><span>-</span></div><span class="__dropdown-guests-number">0</span>
+        <input class="__dropdown-guests-hidden" type="number" value="0">
+        <div class="__dropdown-guests-plus-wrapper"><span>+</span></div>
+      </div>
+      <div class="__dropdown-guests-input"><span class="__dropdown-guests-input-label">Младенцы</span>
+        <div class="__dropdown-guests-minus-wrapper"><span>-</span></div><span class="__dropdown-guests-number">0</span>
+        <input class="__dropdown-guests-hidden" type="number" value="0">
+        <div class="__dropdown-guests-plus-wrapper"><span>+</span></div>
+      </div>
+      <div class="__dropdown-guests-buttons">
+        <div class="__dropdown-guests-refresh ">Очистить</div>
+        <div class="__dropdown-guests-submit">Применить</div>
       </div>
     </div>
   </div>
+</div><br>
+<div class="__rich-checkbox"><span class="__rich-checkbox-label">rich Сheckbox buttons</span>
+  <table class="__rich-checkbox-checkboxes">
+    <tr class="__rich-checkbox-tr1">
+      <td>
+        <div class="__checkbox-corridor-wrapper">
+          <div class="__checkbox-corridor">
+            <input class="hidden" type="checkbox">
+            <div class="__checkbox-corridor-checker"></div>
+          </div>
+        </div>
+      </td>
+      <td class="__checkbox-corridor-label">Широкий коридор</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="__checkbox-corridor-description">Ширина коридоров в номере не менее 91 см.</td>
+    </tr>
+    <tr class="__rich-checkbox-tr1">
+      <td>
+        <div class="__checkbox-helper-wrapper">
+          <div class="__checkbox-helper">
+            <input class="hidden" type="checkbox">
+            <div class="__checkbox-helper-checker"></div>
+          </div>
+        </div>
+      </td>
+      <td class="__checkbox-helper-label">Помощник для инвалидов</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="__checkbox-helper-description">На первом этаже вас встретит специалист и проводит до номера.</td>
+    </tr>
+  </table>
+</div>
+      </article>
+      <article>
+<div class="__range">
+  <div class="__range-label"><span class="__range-label-span">range slider</span>
+    <div class="__range-indicator"> <span class="__range-indicator-span1">5 000&#8381</span> - <span class="__range-indicator-span2">10 000&#8381</span></div>
+  </div>
+  <div class="__range-scale">
+    <div class="__range-slider">
+      <div class="__range-slider-elem1"></div>
+      <div class="__range-slider-elem2"></div>
+      <div class="__range-slider-elem3"></div>
+    </div>
+  </div>
+</div><br>
+        <div class="label"><span class="label-span">buttons</span></div><br>
+        <div style="display: flex; justify-content: space-between; width: 220px;">
+<button class="__click-button _button-size-m _button-bg-color-purple _button-color-white">click me</button>
+          <button class="__click-button _button-size-m _button-bg-color-purple _button-color-white _button-opacity05">click me</button>
+        </div><br>
+        <div style="display: flex; justify-content: space-between; width: 220px;">
+          <button class="__click-button _button-size-m _button-color-purple _button-border-color-purple">click me</button>
+          <button class="__click-button _button-size-m _button-color-purple _button-border-color-purple _button-opacity05">click me</button>
+        </div><br>
+        <div style="display: flex; justify-content: space-between; width: 150px;">
+          <button class="__click-button _button-color-purple">click me</button>
+          <button class="__click-button _button-color-darkshade50">click me</button>
+        </div><br>
+<button class="__button-with-arrow _button-size-l _button-bg-color-purple _button-color-white"> <span class="__button-with-arrow-label">Перейти к оплате</span><span class="__button-arrow material-icons" type="submit">arrow_forward</span></button><br>
+        <div class="label"><span class="label-span">pagination</span></div><br>
+<div class="__pagination">
+  <div class="__page-numbers"><span class="__page-number _pagination-activated">1</span><span class="__page-number">2</span><span class="__page-number">3</span><span class="__page-number">...</span><span class="__page-number">15</span><span class="__pagination-arrow material-icons _pagination-arrow-theme-green">arrow_forward</span></div>
+  <div class="__description">1 - 12 из 100+ вариантов аренды</div>
+</div><br>
+        <div class="__dropdown-guests-field _dropdown-guests-expanded _dropdown-guests-refresh-active">
+          <div class="__dropdown-guests-field-label"><span class="__dropdown-guests-field-label-span1">dropdown</span></div>
+          <div class="__dropdown-guests">
+            <div class="__dropdown-guests-switcher"><span>3 гостя</span>
+              <div class="__dropdown-guests-arrow-wrapper"><span class="__dropdown-guests-arrow material-icons">keyboard_arrow_down</span></div>
+            </div>
+            <div class="__dropdown-guests-inputs">
+              <div class="__dropdown-guests-input"><span class="__dropdown-guests-input-label">Взрослые</span>
+                <div class="__dropdown-guests-minus-wrapper"><span>-</span></div><span class="__dropdown-guests-number">2</span>
+                <input class="__dropdown-guests-hidden" type="number" value="0">
+                <div class="__dropdown-guests-plus-wrapper"><span>+</span></div>
+              </div>
+              <div class="__dropdown-guests-input"><span class="__dropdown-guests-input-label">Дети</span>
+                <div class="__dropdown-guests-minus-wrapper"><span>-</span></div><span class="__dropdown-guests-number">1</span>
+                <input class="__dropdown-guests-hidden" type="number" value="0">
+                <div class="__dropdown-guests-plus-wrapper"><span>+</span></div>
+              </div>
+              <div class="__dropdown-guests-input"><span class="__dropdown-guests-input-label">Младенцы</span>
+                <div class="__dropdown-guests-minus-wrapper"><span>-</span></div><span class="__dropdown-guests-number">0</span>
+                <input class="__dropdown-guests-hidden" type="number" value="0">
+                <div class="__dropdown-guests-plus-wrapper"><span>+</span></div>
+              </div>
+              <div class="__dropdown-guests-buttons">
+                <div class="__dropdown-guests-refresh ">Очистить</div>
+                <div class="__dropdown-guests-submit">Применить</div>
+              </div>
+            </div>
+          </div>
+        </div><br>
+      </article>
+    </section>
+    <setion>
+      <article>
+<div class="__comfort"><span class="__comfort-icon material-icons">tag_faces</span>
+  <div class="__comfort-description"><span class="__comfort-header">Комфорт</span><span>Шумопоглощающие стены</span></div>
+</div><br>
+<div class="__convenience">
+  <div class="__convenience-icon material-icons">location_city</div>
+  <div class="__convenience-description"><span class="__convenience-header">Удобство</span><span>Окно в каждой из спален</span></div>
 </div>
       </article>
       <article></article>
-    </section>
+    </setion>
   <script type="text/javascript" src="form_elements.bundle.js"></script></body>
 </html>
