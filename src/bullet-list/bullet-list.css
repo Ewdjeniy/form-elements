@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    src: local("Montserrat Regular"), local(Montserrat-Regular), url(bullet-list/fonts/Montserrat-Regular.woff) format("woff"), url(bullet-list/fonts/Montserrat-Regular.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    src: local("Montserrat Bold"), local(Montserrat-Bold), url(bullet-list/fonts/Montserrat-Bold.woff) format("woff"), url(bullet-list/fonts/Montserrat-Bold.ttf) format("ttf");
+}
+
+.bullet-list {
+    font-family: "Montserrat";
+    font-style: normal;
+    width: 29.2rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bullet-list__list {
+    padding: 0;
+}
+
+.bullet-list__label {
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: #1F2041;
+}
+
+.bullet-list__li1,
+.bullet-list__li2,
+.bullet-list__li3 {
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: rgba(31, 32, 65, 0.75);
+    list-style-type: none;
+    display: flex;
+    align-items: baseline;
+}
+
+.bullet-list__marker1, .bullet-list__marker2, .bullet-list__marker3 {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: rgba(31, 32, 65, 0.25);
+    margin-right: 1rem;
+    flex-shrink: 0;
+}

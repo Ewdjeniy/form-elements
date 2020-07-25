@@ -6,8 +6,8 @@
 @import "./__subscription-text-field/__subscription-text-field.css";
 @import "./__dropdown-beds-field/__dropdown-beds-field.css";
 @import "./__checkbox-expandable/__checkbox-expandable.css";
-@import "./__comfort/__comfort.css";
-@import "./__convenience/__convenience.css";
+@import "./comfort/comfort.css";
+@import "./convenience/convenience.css";
 @import "./__checkbox/__checkbox.css";
 @import "./__radio-sex/__radio-sex.css";
 @import "./__toggle/__toggle.css";
@@ -18,6 +18,8 @@
 @import "./__click-button/__click-button.css";
 @import "./__button-with-arrow/__button-with-arrow.css";
 @import "./__pagination/__pagination.css";
+@import "./bullet-list/bullet-list.css";
+@import "./comment/comment.css";
 
 @font-face {
     font-family: Montserrat;
@@ -31,12 +33,12 @@ html {
 }
 
 body {
-    padding-bottom: 300px;
+    padding: 0 100px 300px 100px;
 }
 
 section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 article {

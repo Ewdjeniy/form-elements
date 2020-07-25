@@ -2,21 +2,21 @@
     font-family: "Material Icons";
     font-style: normal;
     font-weight: 400;
-    src: local("Material Icons"), local(MaterialIcons-Regular), url(fonts/MaterialIcons-Regular.woff) format("woff"), url(fonts/MaterialIcons-Regular.ttf) format("ttf");
+    src: local("Material Icons"), local(MaterialIcons-Regular), url(comfort/fonts/MaterialIcons-Regular.woff) format("woff"), url(comfort/fonts/MaterialIcons-Regular.ttf) format("ttf");
 }
 
 @font-face {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 400;
-    src: local("Montserrat Regular"), local(Montserrat-Regular), url(fonts/Montserrat-Regular.woff) format("woff"), url(fonts/Montserrat-Regular.ttf) format("ttf");
+    src: local("Montserrat Regular"), local(Montserrat-Regular), url(comfort/fonts/Montserrat-Regular.woff) format("woff"), url(comfort/fonts/Montserrat-Regular.ttf) format("ttf");
 }
 
 @font-face {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
-    src: local("Montserrat Bold"), local(Montserrat-Bold), url(fonts/Montserrat-Bold.woff) format("woff"), url(fonts/Montserrat-Bold.ttf) format("ttf");
+    src: local("Montserrat Bold"), local(Montserrat-Bold), url(comfort/fonts/Montserrat-Bold.woff) format("woff"), url(comfort/fonts/Montserrat-Bold.ttf) format("ttf");
 }
 
 .material-icons {
@@ -43,7 +43,7 @@
     font-feature-settings: 'liga';
 }
 
-.__comfort {
+.comfort {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: normal;
@@ -55,7 +55,7 @@
     border-bottom: 1px solid rgba(31, 32, 65, 0.1);
 }
 
-.__comfort-icon {
+.comfort__icon {
     background-image: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -64,13 +64,13 @@
     line-height: 5rem;
 }
 
-.__comfort-description {
+.comfort__description {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding-left: 1rem;
 }
 
-.__comfort-header {
+.comfort__header {
     font-weight: bold;
 }

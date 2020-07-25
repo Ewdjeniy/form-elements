@@ -28,8 +28,6 @@ html
             br
             include ./__dropdown-dates/__dropdown-dates.pug
             br
-            br
-            br
             include ./__dropdown-filter-date-field/__dropdown-filter-date-field.pug
             br
             include ./__subscription-text-field/__subscription-text-field.pug
@@ -101,11 +99,11 @@ html
             br
             div(style="display: flex; justify-content: space-between; width: 220px;")
                 button(class="__click-button _button-size-m _button-color-purple _button-border-color-purple") click me
-                button(class="__click-button _button-size-m _button-color-purple _button-border-color-purple _button-opacity05") click me
+                button(class="__click-button _button-size-m _button-color-purple _button-border-color-purple-alfa50") click me
             br
             div(style="display: flex; justify-content: space-between; width: 150px;")
-                button(class="__click-button _button-color-purple") click me
-                button(class="__click-button _button-color-darkshade50") click me
+                button(class="__click-button _button-size-s _button-color-purple") click me
+                button(class="__click-button _button-size-s _button-color-darkshade50") click me
             br
             include ./__button-with-arrow/__button-with-arrow.pug
             br
@@ -151,9 +149,13 @@ html
                             div(class="__dropdown-guests-refresh ") Очистить
                             div(class="__dropdown-guests-submit") Применить
             br
-    setion
+            include ./bullet-list/bullet-list.pug
+    br
+    section
         article
-            include ./__comfort/__comfort.pug
+            include ./comfort/comfort.pug
             br
-            include ./__convenience/__convenience.pug
+            include ./convenience/convenience.pug
         article
+            br
+            include ./comment/comment.pug

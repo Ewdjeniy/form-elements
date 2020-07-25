@@ -1,0 +1,59 @@
+@import "./__like/comment__like.css";
+
+@font-face {
+    font-family: "Material Icons";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Material Icons"), local(MaterialIcons-Regular), url(comment/fonts/MaterialIcons-Regular.woff) format("woff"), url(comment/fonts/MaterialIcons-Regular.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    src: local("Montserrat Regular"), local(Montserrat-Regular), url(comment/fonts/Montserrat-Regular.woff) format("woff"), url(comment/fonts/Montserrat-Regular.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    src: local("Montserrat Bold"), local(Montserrat-Bold), url(comment/fonts/Montserrat-Bold.woff) format("woff"), url(comment/fonts/Montserrat-Bold.ttf) format("ttf");
+}
+
+.comment {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: rgba(31, 32, 65, 0.75);
+    display: grid;
+    grid-template-columns: 4.8rem 65.3rem;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-template-areas: 
+        "ava name"
+        "like comment";
+}
+
+.comment__author-avatar {
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    background-image: url('./comment/images/image.png');
+    background-position: center 25%;
+}
+
+.comment__like {
+    grid-area: like;
+    justify-self: center;
+}
+
+.comment__author-name {
+    font-weight: bold;
+}
+
+.comment__text {
+    margin: 0;
+}
